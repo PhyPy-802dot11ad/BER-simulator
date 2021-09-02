@@ -19,8 +19,7 @@ MIN_SENT_PACKETS = 3 # Custom to smooth out parts of the curve with high BER val
 # MAX_TRANSMITTED_BITS = 10**8 # As in MATLAB docs
 # MIN_SENT_PACKETS = 1 # Custom to smooth out parts of the curve with high BER values
 
-# Eb_N0_db_list = np.arange(0.0, 15.0, 0.25)
-Eb_N0_db_list = np.arange(0.0, 1.0, 0.25)
+Eb_N0_db_list = np.arange(0.0, 15.0, 0.25)
 
 MCS_list = np.array([2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 12.1, 12.3, 12.4, 12.5])
 demapping_algorithm = 'decision threshold'
